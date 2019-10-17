@@ -1,3 +1,4 @@
+# encoding = utf-8
 import requests
 
 from constant import constant

@@ -1,3 +1,4 @@
+# encoding = utf-8
 from constant import constant
 from constant.constant import iHrm_user
 
