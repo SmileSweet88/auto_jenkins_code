@@ -25,7 +25,7 @@ def getData():
     print("参数化：登录数据： ", listData)
     return listData
 
-log_config()
+
 class TestIhrmLogin(unittest.TestCase):
     def setUp(self):
         self.session = requests.session()
