@@ -12,6 +12,6 @@ suit.addTest(unittest.makeSuite(TestIhrmLogin))
 
 path1 = os.path.dirname(os.path.abspath(__file__))
 
-with open(path1 + '/report/report.html', 'wb') as f:
+with open(path1 + '/report/report.html', 'wb',encoding="utf-8") as f:
     runner = HTMLTestRunner.HTMLTestRunner(f, title='text1', description='老子的报告')
     runner.run(suit)
